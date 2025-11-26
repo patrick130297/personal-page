@@ -1,36 +1,122 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfólio Pessoal - Patrick Anderson Lima Batista
 
-## Getting Started
+Site de portfólio profissional desenvolvido com Next.js, React 19 e Tailwind CSS.
 
-First, run the development server:
+## 🚀 Tecnologias
+
+- **Next.js 16.0.4** - Framework React com App Router
+- **React 19.2.0** - Biblioteca para interfaces
+- **TypeScript 5** - Tipagem estática
+- **Tailwind CSS 4** - Framework CSS utilitário
+- **pnpm** - Gerenciador de pacotes
+
+## 📋 Pré-requisitos
+
+- Node.js 20+
+- pnpm (ou npm/yarn)
+
+## 🔧 Instalação
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clonar o repositório
+git clone <url-do-repositorio>
+
+# Entrar no diretório
+cd personal-page
+
+# Instalar dependências
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Scripts Disponíveis
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Desenvolvimento
+pnpm dev
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Build para produção
+pnpm build
 
-## Learn More
+# Iniciar servidor de produção
+pnpm start
 
-To learn more about Next.js, take a look at the following resources:
+# Lint
+pnpm lint
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Estrutura do Projeto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+src/
+├── app/
+│   ├── layout.tsx       # Layout raiz com metadados
+│   ├── page.tsx         # Página principal
+│   └── globals.css      # Estilos globais
+├── components/
+│   ├── Header.tsx       # Cabeçalho com navegação
+│   ├── Hero.tsx         # Seção hero com apresentação
+│   ├── About.tsx        # Sobre mim
+│   ├── Experience.tsx   # Experiência profissional
+│   ├── Skills.tsx       # Habilidades técnicas
+│   ├── Projects.tsx     # Projetos em destaque
+│   ├── Education.tsx    # Educação e idiomas
+│   ├── Contact.tsx      # Informações de contato
+│   └── Footer.tsx       # Rodapé
+├── data/
+│   └── portfolio.ts     # Dados do portfólio
+└── types/
+    └── index.ts         # Definições TypeScript
+```
 
-## Deploy on Vercel
+## ✨ Funcionalidades
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ✅ Design moderno e responsivo
+- ✅ Tema escuro automático (baseado em preferência do sistema)
+- ✅ Navegação smooth scroll
+- ✅ Componentes modulares e reutilizáveis
+- ✅ Tipagem completa com TypeScript
+- ✅ SEO otimizado com metadados
+- ✅ Performance otimizada com Next.js 16
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🎨 Seções
+
+1. **Header** - Navegação fixa com links para seções
+2. **Hero** - Apresentação com nome, título e localização
+3. **Sobre Mim** - Resumo profissional e objetivos
+4. **Experiência** - Timeline com histórico profissional
+5. **Habilidades** - Categorias de habilidades técnicas com níveis
+6. **Projetos** - Projetos em destaque com tecnologias
+7. **Educação** - Formação acadêmica e idiomas
+8. **Contato** - Links para redes sociais e contato
+9. **Footer** - Copyright e download do CV
+
+## 🌐 Deploy
+
+O projeto está pronto para deploy em plataformas como:
+
+- **Vercel** (recomendado)
+- **Netlify**
+- **AWS Amplify**
+- Qualquer plataforma que suporte Next.js
+
+### Deploy na Vercel
+
+```bash
+# Instalar Vercel CLI
+pnpm add -g vercel
+
+# Deploy
+vercel
+```
+
+## 📝 Customização
+
+Para customizar o portfólio com suas informações:
+
+1. Edite `/src/data/portfolio.ts` com seus dados pessoais, experiências, habilidades e projetos
+2. Adicione seu CV em PDF na pasta `/public/` como `cv_dev_pt.pdf`
+3. Ajuste as cores e estilos em `/src/app/globals.css` se necessário
+
+## 📄 Licença
+
+© 2025 Patrick Anderson Lima Batista. Todos os direitos reservados.
