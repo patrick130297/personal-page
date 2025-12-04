@@ -9,7 +9,6 @@ export function Hero() {
   return (
     <section className="w-full">
       <div className="flex flex-col items-center gap-4 text-center md:gap-6 lg:items-start lg:text-left lg:gap-8 lg:sticky lg:top-20">
-        
         <div className="space-y-3 md:space-y-4">
           <h1 className="text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 md:text-4xl lg:text-6xl">
             {personalInfo.name}
