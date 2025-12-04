@@ -33,17 +33,17 @@ export function Education() {
                   <h4 className="text-sm font-bold text-zinc-900 dark:text-zinc-50 md:text-base" suppressHydrationWarning>
                     {t(`education.${eduKey}.degree`)}
                   </h4>
-                  <p className="mt-1 text-xs text-zinc-600 dark:text-zinc-400 md:text-sm" suppressHydrationWarning>
+                  <p className="mt-1 text-xs text-zinc-700 dark:text-zinc-300 md:text-sm" suppressHydrationWarning>
                     {t(`education.${eduKey}.institution`)}
                   </p>
-                  <div className="mt-1.5 flex items-center gap-2 text-[10px] text-zinc-500 dark:text-zinc-500 md:mt-2 md:text-xs">
+                  <div className="mt-1.5 flex items-center gap-2 text-[10px] text-zinc-600 dark:text-zinc-400 md:mt-2 md:text-xs">
                     <span suppressHydrationWarning>
                       {t(`education.${eduKey}.period`)}
                     </span>
                     {edu.status && (
                       <>
                         <span>•</span>
-                        <span className="font-medium text-emerald-600 dark:text-emerald-400" suppressHydrationWarning>
+                        <span className="font-medium text-emerald-700 dark:text-emerald-300" suppressHydrationWarning>
                           {t(`education.${eduKey}.status`)}
                         </span>
                       </>

@@ -13,10 +13,10 @@ export function Hero() {
           <h1 className="text-3xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 md:text-4xl lg:text-6xl">
             {personalInfo.name}
           </h1>
-          <p className="text-lg text-zinc-600 dark:text-zinc-400 md:text-xl lg:text-2xl" suppressHydrationWarning>
+          <p className="text-lg text-zinc-700 dark:text-zinc-300 md:text-xl lg:text-2xl" suppressHydrationWarning>
             {t('personalInfo.title')}
           </p>
-          <div className="flex flex-wrap items-center justify-center gap-3 text-xs text-zinc-600 dark:text-zinc-400 md:gap-4 md:text-sm lg:justify-start">
+          <div className="flex flex-wrap items-center justify-center gap-3 text-xs text-zinc-700 dark:text-zinc-300 md:gap-4 md:text-sm lg:justify-start">
             <span className="flex items-center gap-2" suppressHydrationWarning>
               <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />

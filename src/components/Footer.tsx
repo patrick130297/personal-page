@@ -14,12 +14,12 @@ export function Footer() {
   return (
     <footer className="border-t border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-950">
       <div className="container mx-auto max-w-6xl px-4 py-6 md:px-6 md:py-8">
-        <div className="flex flex-col items-center justify-between gap-3 text-xs text-zinc-600 dark:text-zinc-400 md:flex-row md:gap-4 md:text-sm">
+        <div className="flex flex-col items-center justify-between gap-3 text-xs text-zinc-700 dark:text-zinc-300 md:flex-row md:gap-4 md:text-sm">
           <p suppressHydrationWarning>© {currentYear} Patrick Anderson Lima Batista. {t('footer.copyright')}</p>
           <a
             href={cvPath}
             download={cvFileName}
-            className="flex items-center gap-2 font-medium text-zinc-900 transition-colors hover:text-emerald-600 dark:text-zinc-50 dark:hover:text-emerald-400"
+            className="flex items-center gap-2 font-medium text-zinc-900 transition-colors hover:text-emerald-700 dark:text-zinc-50 dark:hover:text-emerald-300"
             suppressHydrationWarning
           >
             <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

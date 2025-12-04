@@ -13,7 +13,7 @@ export function Contact() {
           <h2 className="mb-3 text-2xl font-bold text-zinc-900 dark:text-zinc-50 md:mb-4 md:text-3xl">
             {t('section.contact')}
           </h2>
-          <p className="mb-6 text-base text-zinc-600 dark:text-zinc-400 md:mb-8 md:text-lg lg:mb-12">
+          <p className="mb-6 text-base text-zinc-700 dark:text-zinc-300 md:mb-8 md:text-lg lg:mb-12">
             {t('section.contactSubtitle')}
           </p>
         </div>
@@ -24,16 +24,16 @@ export function Contact() {
             className="group flex items-center gap-2 rounded-2xl border border-zinc-200 bg-white p-3 transition-all hover:shadow-lg dark:border-zinc-800 dark:bg-zinc-900 md:gap-3 md:p-4 lg:gap-4 lg:p-6"
             aria-label={`${t('contact.labels.email')}: ${contact.email}`}
           >
-            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-100 text-emerald-600 dark:bg-emerald-900/20 dark:text-emerald-400 md:h-12 md:w-12">
+            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-300 md:h-12 md:w-12">
               <svg className="h-5 w-5 md:h-6 md:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
             </div>
             <div className="flex-1">
-              <div className="text-xs font-medium text-zinc-500 dark:text-zinc-400 md:text-sm" suppressHydrationWarning>
+              <div className="text-xs font-medium text-zinc-600 dark:text-zinc-400 md:text-sm" suppressHydrationWarning>
                 {t('contact.labels.email')}
               </div>
-              <div className="text-xs font-semibold text-zinc-900 group-hover:text-emerald-600 dark:text-zinc-50 dark:group-hover:text-emerald-400 md:text-sm">
+              <div className="text-xs font-semibold text-zinc-900 group-hover:text-emerald-700 dark:text-zinc-50 dark:group-hover:text-emerald-300 md:text-sm">
                 {contact.email}
               </div>
             </div>
@@ -52,10 +52,10 @@ export function Contact() {
               </svg>
             </div>
             <div className="flex-1">
-              <div className="text-sm font-medium text-zinc-500 dark:text-zinc-400" suppressHydrationWarning>
+              <div className="text-sm font-medium text-zinc-600 dark:text-zinc-400" suppressHydrationWarning>
                 {t('contact.labels.whatsapp')}
               </div>
-              <div className="text-sm font-semibold text-zinc-900 group-hover:text-emerald-600 dark:text-zinc-50 dark:group-hover:text-emerald-400">
+              <div className="text-sm font-semibold text-zinc-900 group-hover:text-emerald-700 dark:text-zinc-50 dark:group-hover:text-emerald-300">
                 {contact.phone}
               </div>
             </div>
@@ -68,16 +68,16 @@ export function Contact() {
             className="group flex items-center gap-2 rounded-2xl border border-zinc-200 bg-white p-3 transition-all hover:shadow-lg dark:border-zinc-800 dark:bg-zinc-900 md:gap-3 md:p-4 lg:gap-4 lg:p-6"
             aria-label={`${t('contact.labels.linkedin')} - ${personalInfo.name}`}
           >
-            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 text-blue-600 dark:bg-blue-900/20 dark:text-blue-400">
+            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300">
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
               </svg>
             </div>
             <div className="flex-1">
-              <div className="text-sm font-medium text-zinc-500 dark:text-zinc-400" suppressHydrationWarning>
+              <div className="text-sm font-medium text-zinc-600 dark:text-zinc-400" suppressHydrationWarning>
                 {t('contact.labels.linkedin')}
               </div>
-              <div className="text-sm font-semibold text-zinc-900 group-hover:text-blue-600 dark:text-zinc-50 dark:group-hover:text-blue-400" suppressHydrationWarning>
+              <div className="text-sm font-semibold text-zinc-900 group-hover:text-blue-700 dark:text-zinc-50 dark:group-hover:text-blue-300" suppressHydrationWarning>
                 {t('contact.linkedin')}
               </div>
             </div>
@@ -96,10 +96,10 @@ export function Contact() {
               </svg>
             </div>
             <div className="flex-1">
-              <div className="text-sm font-medium text-zinc-500 dark:text-zinc-400" suppressHydrationWarning>
+              <div className="text-sm font-medium text-zinc-600 dark:text-zinc-400" suppressHydrationWarning>
                 {t('contact.labels.github')}
               </div>
-              <div className="text-sm font-semibold text-zinc-900 group-hover:text-zinc-600 dark:text-zinc-50 dark:group-hover:text-zinc-300" suppressHydrationWarning>
+              <div className="text-sm font-semibold text-zinc-900 group-hover:text-zinc-700 dark:text-zinc-50 dark:group-hover:text-zinc-200" suppressHydrationWarning>
                 {t('contact.github')}
               </div>
             </div>
@@ -110,30 +110,30 @@ export function Contact() {
             className="group flex items-center gap-2 rounded-2xl border border-zinc-200 bg-white p-3 transition-all hover:shadow-lg dark:border-zinc-800 dark:bg-zinc-900 md:gap-3 md:p-4 lg:gap-4 lg:p-6"
             aria-label={`${t('contact.labels.telephone')}: ${contact.phone}`}
           >
-            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-100 text-emerald-600 dark:bg-emerald-900/20 dark:text-emerald-400 md:h-12 md:w-12">
+            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-300 md:h-12 md:w-12">
               <svg className="h-5 w-5 md:h-6 md:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
             </div>
             <div className="flex-1">
-              <div className="text-sm font-medium text-zinc-500 dark:text-zinc-400" suppressHydrationWarning>
+              <div className="text-sm font-medium text-zinc-600 dark:text-zinc-400" suppressHydrationWarning>
                 {t('contact.labels.telephone')}
               </div>
-              <div className="text-sm font-semibold text-zinc-900 group-hover:text-emerald-600 dark:text-zinc-50 dark:group-hover:text-emerald-400">
+              <div className="text-sm font-semibold text-zinc-900 group-hover:text-emerald-700 dark:text-zinc-50 dark:group-hover:text-emerald-300">
                 {contact.phone}
               </div>
             </div>
           </a>
 
           <div className="flex items-center gap-2 rounded-2xl border border-zinc-200 bg-white p-3 dark:border-zinc-800 dark:bg-zinc-900 md:gap-4 md:p-4 lg:p-6">
-            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-100 text-emerald-600 dark:bg-emerald-900/20 dark:text-emerald-400 md:h-12 md:w-12">
+            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-100 text-emerald-700 dark:bg-emerald-900/30 dark:text-emerald-300 md:h-12 md:w-12">
               <svg className="h-5 w-5 md:h-6 md:w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
             </div>
             <div className="flex-1">
-              <div className="text-sm font-medium text-zinc-500 dark:text-zinc-400" suppressHydrationWarning>
+              <div className="text-sm font-medium text-zinc-600 dark:text-zinc-400" suppressHydrationWarning>
                 {t('contact.labels.location')}
               </div>
               <div className="text-sm font-semibold text-zinc-900 dark:text-zinc-50" suppressHydrationWarning>

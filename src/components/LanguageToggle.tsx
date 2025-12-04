@@ -25,7 +25,7 @@ export function LanguageToggle() {
         className={`rounded-full px-3 py-1.5 text-xs font-medium transition-colors ${
           isPt
             ? 'bg-zinc-900 text-white dark:bg-zinc-50 dark:text-zinc-900'
-            : 'text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-50'
+            : 'text-zinc-700 hover:text-zinc-900 dark:text-zinc-300 dark:hover:text-zinc-50'
         }`}
         suppressHydrationWarning
       >
@@ -36,7 +36,7 @@ export function LanguageToggle() {
         className={`rounded-full px-3 py-1.5 text-xs font-medium transition-colors ${
           isEn
             ? 'bg-zinc-900 text-white dark:bg-zinc-50 dark:text-zinc-900'
-            : 'text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-50'
+            : 'text-zinc-700 hover:text-zinc-900 dark:text-zinc-300 dark:hover:text-zinc-50'
         }`}
         suppressHydrationWarning
       >

@@ -27,7 +27,7 @@ export function Experience() {
                   <h3 className="text-base font-bold text-zinc-900 dark:text-zinc-50 md:text-lg lg:text-xl" suppressHydrationWarning>
                     {t(`experiences.${expKey}.position`)}
                   </h3>
-                  <div className="mt-1 flex flex-wrap items-center gap-1.5 text-[10px] text-zinc-600 dark:text-zinc-400 md:text-xs lg:text-sm">
+                  <div className="mt-1 flex flex-wrap items-center gap-1.5 text-[10px] text-zinc-700 dark:text-zinc-300 md:text-xs lg:text-sm">
                     <span className="font-semibold" suppressHydrationWarning>
                       {t(`experiences.${expKey}.company`)}
                     </span>
@@ -42,11 +42,11 @@ export function Experience() {
                   </div>
                 </div>
 
-                <p className="mb-2 text-xs text-zinc-600 dark:text-zinc-400 md:mb-3 md:text-sm lg:text-base" suppressHydrationWarning>
+                <p className="mb-2 text-xs text-zinc-700 dark:text-zinc-300 md:mb-3 md:text-sm lg:text-base" suppressHydrationWarning>
                   {t(`experiences.${expKey}.description`)}
                 </p>
 
-                <ul className="mb-2 space-y-1 text-[11px] text-zinc-600 dark:text-zinc-400 md:mb-3 md:space-y-1.5 md:text-xs lg:mb-4 lg:space-y-2 lg:text-sm">
+                <ul className="mb-2 space-y-1 text-[11px] text-zinc-700 dark:text-zinc-300 md:mb-3 md:space-y-1.5 md:text-xs lg:mb-4 lg:space-y-2 lg:text-sm">
                   {exp.highlights.map((_, idx) => (
                     <li key={idx} className="flex items-start gap-2">
                       <span className="mt-1.5 h-1 w-1 flex-shrink-0 rounded-full bg-emerald-500"></span>
