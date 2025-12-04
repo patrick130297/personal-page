@@ -8,24 +8,6 @@ export interface Experience {
   highlights: string[];
 }
 
-export interface Skill {
-  category: string;
-  items: SkillItem[];
-}
-
-export interface SkillItem {
-  name: string;
-  level: 'Expert' | 'Avançado' | 'Intermediário';
-}
-
-export interface Project {
-  title: string;
-  description: string;
-  technologies: string[];
-  link?: string;
-  github?: string;
-}
-
 export interface Education {
   degree: string;
   institution: string;
@@ -41,4 +23,5 @@ export interface ContactInfo {
   github: string;
   location: string;
 }
+
 

@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "available": "Available for remote work",
+    "cta": {
+      "contact": "Get in Touch",
+      "downloadCV": "Download CV"
+    },
+    "languages": {
+      "fluent": "Fluent in Portuguese and English"
+    }
+  },
+  "section": {
+    "about": "About Me",
+    "experience": "Professional Experience",
+    "education": "Education & Languages",
+    "contact": "Let's Talk?",
+    "contactSubtitle": "I'm always open to new opportunities and interesting projects."
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "downloadCV": "Download CV (PDF)"
+  },
+  "education": {
+    "academic": "Academic Education",
+    "languagesTitle": "Languages",
+    "bachelor": {
+      "degree": "Bachelor's in Information Systems",
+      "institution": "Universidade Veiga de Almeida (UVA)",
+      "period": "2018 - 2022",
+      "status": "Completed"
+    },
+    "technical": {
+      "degree": "Technical in Industrial Automation",
+      "institution": "SENAI",
+      "period": "2013 - 2015",
+      "status": "Completed"
+    },
+    "languageLevels": {
+      "native": "Native",
+      "fluent": "Fluent",
+      "basic": "Basic"
+    },
+    "languages": {
+      "portuguese": "Portuguese",
+      "english": "English",
+      "spanish": "Spanish"
+    }
+  },
+  "personalInfo": {
+    "title": "Senior Software Developer",
+    "location": "Rio de Janeiro, Brazil",
+    "about": {
+      "0": "Senior Software Engineer with over 6 years of experience developing high-performance web and mobile applications. Specialized in React, Next.js, TypeScript, and Node.js, with strong expertise in cloud infrastructure.",
+      "1": "Throughout my career, I've worked at companies across different sectors (fintech, logistics, energy), always focused on creating scalable solutions with excellent user experience. I have solid experience in all development stages, from architecture design to deployment and production monitoring.",
+      "2": "I'm passionate about solving complex problems, optimizing application performance, and ensuring reliable systems. I constantly seek to learn new technologies and share knowledge with the community."
+    }
+  },
+  "experiences": {
+    "supergasbras": {
+      "position": "Front End Developer",
+      "company": "Supergasbras",
+      "location": "Rio de Janeiro",
+      "period": "Oct 2024 - Present",
+      "description": "Development and maintenance of web and mobile applications for internal use and end customers.",
+      "highlights": {
+        "0": "Development of responsive web applications with React and TypeScript",
+        "1": "Creation of components following company Design System",
+        "2": "Development of mobile applications with React Native",
+        "3": "Integration with Azure DevOps for CI/CD"
+      }
+    },
+    "taking": {
+      "position": "Front End Developer",
+      "company": "Taking",
+      "location": "São Paulo",
+      "period": "Jan 2022 - Jun 2024",
+      "description": "Development of complete platform for order management, menus, and logistics for restaurants.",
+      "highlights": {
+        "0": "Creation of documented Design System with Storybook",
+        "1": "Implementation of unit, integration, and E2E tests (coverage >80%)",
+        "2": "CI/CD pipeline configuration with Circle CI",
+        "3": "Real-time communication with WebSockets",
+        "4": "Close collaboration with PM, Backend, UX, and QA"
+      }
+    },
+    "btg": {
+      "position": "Front End Developer",
+      "company": "BTG Pactual",
+      "location": "São Paulo",
+      "period": "Aug 2021 - Jan 2022",
+      "description": "Development of onboarding platform and loan management for institutional clients.",
+      "highlights": {
+        "0": "Creation of complex and intuitive onboarding flows",
+        "1": "Development of loan management dashboard",
+        "2": "Implementation of reusable components with Styled Components",
+        "3": "Integration with secure RESTful APIs"
+      }
+    },
+    "netquant": {
+      "position": "Full Stack Developer",
+      "company": "NetQuant",
+      "location": "Rio de Janeiro",
+      "period": "Jul 2019 - Oct 2021",
+      "description": "Development of web applications for the financial sector and creation of RESTful APIs.",
+      "highlights": {
+        "0": "Full-stack development of financial applications",
+        "1": "Creation of scalable RESTful APIs with Node.js",
+        "2": "Automation scripts with Python",
+        "3": "Deployment and container management with Docker and Kubernetes",
+        "4": "Infrastructure on AWS (EC2, RDS, S3)"
+      }
+    }
+  },
+  "contact": {
+    "labels": {
+      "email": "Email",
+      "whatsapp": "WhatsApp",
+      "telephone": "Phone",
+      "location": "Location",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    },
+    "linkedin": "/patrick-batista",
+    "github": "/patrick130297"
+  }
+}
+

@@ -1,14 +1,13 @@
-import { Experience, Skill, Project, Education, ContactInfo } from '@/types';
+import { Experience, Education, ContactInfo } from '@/types';
 
 export const personalInfo = {
   name: 'Patrick Anderson Lima Batista',
-  title: 'Engenheiro de Software Full-Stack',
+  title: 'Desenvolvedor de Software Senior',
   location: 'Rio de Janeiro, Brasil',
-  remoteAvailable: true,
   about: [
-    'Engenheiro de Software Full-Stack com mais de 5 anos de experiência desenvolvendo aplicações web e mobile de alta performance. Especializado em React, Next.js, TypeScript e Node.js, com forte expertise em observability e infraestrutura cloud.',
+    'Desenvolvedor de Software Sênior com mais de 6 anos de experiência desenvolvendo aplicações web e mobile de alta performance. Especializado em React, Next.js, TypeScript e Node.js, com forte expertise em infraestrutura cloud.',
     'Ao longo da minha carreira, trabalhei em empresas de diferentes setores (fintech, logística, energia), sempre focado em criar soluções escaláveis e com excelente experiência do usuário. Tenho experiência sólida em todas as etapas do desenvolvimento, desde o design de arquitetura até deploy e monitoramento em produção.',
-    'Sou apaixonado por resolver problemas complexos, otimizar performance de aplicações e implementar práticas de observability (OpenTelemetry, Grafana, Prometheus) para garantir sistemas confiáveis e observáveis. Busco constantemente aprender novas tecnologias e compartilhar conhecimento com a comunidade.'
+    'Sou apaixonado por resolver problemas complexos, otimizar performance de aplicações e garantir sistemas confiáveis. Busco constantemente aprender novas tecnologias e compartilhar conhecimento com a comunidade.'
   ]
 };
 
@@ -73,94 +72,17 @@ export const experiences: Experience[] = [
   }
 ];
 
-export const skills: Skill[] = [
-  {
-    category: 'Frontend',
-    items: [
-      { name: 'TypeScript', level: 'Expert' },
-      { name: 'React', level: 'Expert' },
-      { name: 'Next.js', level: 'Expert' },
-      { name: 'React Native', level: 'Avançado' },
-      { name: 'HTML5 / CSS3', level: 'Expert' },
-      { name: 'Tailwind CSS', level: 'Avançado' },
-      { name: 'Material UI', level: 'Avançado' },
-      { name: 'Styled Components', level: 'Avançado' }
-    ]
-  },
-  {
-    category: 'Backend',
-    items: [
-      { name: 'Node.js', level: 'Avançado' },
-      { name: 'NestJS', level: 'Avançado' },
-      { name: 'Python', level: 'Intermediário' },
-      { name: 'PostgreSQL', level: 'Avançado' },
-      { name: 'MongoDB', level: 'Avançado' },
-      { name: 'RESTful APIs', level: 'Expert' }
-    ]
-  },
-  {
-    category: 'Observability & DevOps',
-    items: [
-      { name: 'OpenTelemetry', level: 'Avançado' },
-      { name: 'Grafana', level: 'Avançado' },
-      { name: 'Prometheus', level: 'Avançado' },
-      { name: 'Docker', level: 'Avançado' },
-      { name: 'Kubernetes', level: 'Intermediário' },
-      { name: 'AWS', level: 'Avançado' },
-      { name: 'Azure DevOps', level: 'Avançado' }
-    ]
-  },
-  {
-    category: 'Testes & Qualidade',
-    items: [
-      { name: 'Jest', level: 'Avançado' },
-      { name: 'Testing Library', level: 'Avançado' },
-      { name: 'Cypress', level: 'Avançado' },
-      { name: 'Storybook', level: 'Avançado' }
-    ]
-  },
-  {
-    category: 'Ferramentas & Outros',
-    items: [
-      { name: 'Git', level: 'Expert' },
-      { name: 'Circle CI', level: 'Avançado' },
-      { name: 'Jenkins', level: 'Intermediário' },
-      { name: 'Figma', level: 'Avançado' },
-      { name: 'WebSockets', level: 'Avançado' },
-      { name: 'Firebase', level: 'Avançado' }
-    ]
-  }
-];
-
-export const projects: Project[] = [
-  {
-    title: 'Sistema de Observability para Microserviços',
-    description: 'Implementação completa de observability com OpenTelemetry, Grafana e Prometheus para monitorar microserviços em produção. Criação de dashboards customizados e alertas automatizados.',
-    technologies: ['OpenTelemetry', 'Grafana', 'Prometheus', 'Node.js', 'Docker']
-  },
-  {
-    title: 'Design System Reutilizável',
-    description: 'Criação de Design System completo documentado com Storybook, incluindo componentes React, guidelines de uso e tokens de design. Utilizado por múltiplos times e projetos.',
-    technologies: ['React', 'TypeScript', 'Storybook', 'Styled Components']
-  },
-  {
-    title: 'Plataforma de Pagamentos Real-time',
-    description: 'Desenvolvimento de sistema de pagamentos com comunicação em tempo real usando WebSockets. Inclui processamento de transações, notificações instantâneas e dashboard de métricas.',
-    technologies: ['React', 'Node.js', 'WebSockets', 'PostgreSQL', 'Redis']
-  }
-];
-
 export const education: Education[] = [
   {
     degree: 'Bacharelado em Sistemas de Informação',
     institution: 'Universidade Veiga de Almeida (UVA)',
-    period: '2019 - 2025',
-    status: 'Concluindo'
+    period: '2018 - 2022',
+    status: 'Concluído'
   },
   {
     degree: 'Técnico em Automação Industrial',
     institution: 'SENAI',
-    period: '2016 - 2018',
+    period: '2013 - 2015',
     status: 'Concluído'
   }
 ];
@@ -170,7 +92,7 @@ export const contact: ContactInfo = {
   phone: '+55 (21) 97485-4887',
   whatsapp: '+5521974854887',
   linkedin: 'https://www.linkedin.com/in/patrick-batista',
-  github: 'https://github.com/patrick-batista',
+  github: 'https://github.com/patrick130297',
   location: 'Rio de Janeiro, Brasil'
 };
 
@@ -179,4 +101,5 @@ export const languages = [
   { language: 'Inglês', level: 'Fluente' },
   { language: 'Espanhol', level: 'Básico' }
 ];
+
 

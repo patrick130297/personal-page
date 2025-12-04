@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "about": "Sobre",
+    "experience": "Experiência",
+    "contact": "Contato"
+  },
+  "hero": {
+    "available": "Disponível para trabalho remoto",
+    "cta": {
+      "contact": "Entre em Contato",
+      "downloadCV": "Baixar CV"
+    },
+    "languages": {
+      "fluent": "Fluente em Português e Inglês"
+    }
+  },
+  "section": {
+    "about": "Sobre Mim",
+    "experience": "Experiência Profissional",
+    "education": "Educação & Idiomas",
+    "contact": "Vamos Conversar?",
+    "contactSubtitle": "Estou sempre aberto a novas oportunidades e projetos interessantes."
+  },
+  "footer": {
+    "copyright": "Todos os direitos reservados.",
+    "downloadCV": "Baixar CV (PDF)"
+  },
+  "education": {
+    "academic": "Formação Acadêmica",
+    "languagesTitle": "Idiomas",
+    "bachelor": {
+      "degree": "Bacharelado em Sistemas de Informação",
+      "institution": "Universidade Veiga de Almeida (UVA)",
+      "period": "2018 - 2022",
+      "status": "Concluído"
+    },
+    "technical": {
+      "degree": "Técnico em Automação Industrial",
+      "institution": "SENAI",
+      "period": "2013 - 2015",
+      "status": "Concluído"
+    },
+    "languageLevels": {
+      "native": "Nativo",
+      "fluent": "Fluente",
+      "basic": "Básico"
+    },
+    "languages": {
+      "portuguese": "Português",
+      "english": "Inglês",
+      "spanish": "Espanhol"
+    }
+  },
+  "personalInfo": {
+    "title": "Desenvolvedor de Software Senior",
+    "location": "Rio de Janeiro, Brasil",
+    "about": {
+      "0": "Desenvolvedor de Software Senior com mais de 6 anos de experiência desenvolvendo aplicações web e mobile de alta performance. Especializado em React, Next.js, TypeScript e Node.js, com forte expertise em infraestrutura cloud.",
+      "1": "Ao longo da minha carreira, trabalhei em empresas de diferentes setores (fintech, logística, energia), sempre focado em criar soluções escaláveis e com excelente experiência do usuário. Tenho experiência sólida em todas as etapas do desenvolvimento, desde o design de arquitetura até deploy e monitoramento em produção.",
+      "2": "Sou apaixonado por resolver problemas complexos, otimizar performance de aplicações e garantir sistemas confiáveis. Busco constantemente aprender novas tecnologias e compartilhar conhecimento com a comunidade."
+    }
+  },
+  "experiences": {
+    "supergasbras": {
+      "position": "Desenvolvedor Front End",
+      "company": "Supergasbras",
+      "location": "Rio de Janeiro",
+      "period": "Out 2024 - Atual",
+      "description": "Desenvolvimento e manutenção de aplicações web e mobile para uso interno e clientes finais.",
+      "highlights": {
+        "0": "Desenvolvimento de aplicações web responsivas com React e TypeScript",
+        "1": "Criação de componentes seguindo Design System da empresa",
+        "2": "Desenvolvimento de aplicações mobile com React Native",
+        "3": "Integração com Azure DevOps para CI/CD"
+      }
+    },
+    "taking": {
+      "position": "Desenvolvedor Front End",
+      "company": "Taking",
+      "location": "São Paulo",
+      "period": "Jan 2022 - Jun 2024",
+      "description": "Desenvolvimento de plataforma completa para gestão de pedidos, cardápios e logística para restaurantes.",
+      "highlights": {
+        "0": "Criação de Design System documentado com Storybook",
+        "1": "Implementação de testes unitários, integração e E2E (cobertura >80%)",
+        "2": "Configuração de pipelines CI/CD com Circle CI",
+        "3": "Comunicação em tempo real com WebSockets",
+        "4": "Colaboração próxima com PM, Backend, UX e QA"
+      }
+    },
+    "btg": {
+      "position": "Desenvolvedor Front End",
+      "company": "BTG Pactual",
+      "location": "São Paulo",
+      "period": "Ago 2021 - Jan 2022",
+      "description": "Desenvolvimento de plataforma de onboarding e gestão de empréstimos para clientes institucionais.",
+      "highlights": {
+        "0": "Criação de fluxos de onboarding complexos e intuitivos",
+        "1": "Desenvolvimento de dashboard para gestão de empréstimos",
+        "2": "Implementação de componentes reutilizáveis com Styled Components",
+        "3": "Integração com APIs RESTful seguras"
+      }
+    },
+    "netquant": {
+      "position": "Desenvolvedor Full Stack",
+      "company": "NetQuant",
+      "location": "Rio de Janeiro",
+      "period": "Jul 2019 - Out 2021",
+      "description": "Desenvolvimento de aplicações web para o setor financeiro e criação de APIs RESTful.",
+      "highlights": {
+        "0": "Desenvolvimento full-stack de aplicações financeiras",
+        "1": "Criação de APIs RESTful escaláveis com Node.js",
+        "2": "Scripts de automação com Python",
+        "3": "Deploy e gerenciamento de containers com Docker e Kubernetes",
+        "4": "Infraestrutura em AWS (EC2, RDS, S3)"
+      }
+    }
+  },
+  "contact": {
+    "labels": {
+      "email": "Email",
+      "whatsapp": "WhatsApp",
+      "telephone": "Telefone",
+      "location": "Localização",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    },
+    "linkedin": "/patrick-batista",
+    "github": "/patrick130297"
+  }
+}
+
