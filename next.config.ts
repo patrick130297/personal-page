@@ -11,7 +11,24 @@ const nextConfig: NextConfig = {
   },
   experimental: {
     optimizePackageImports: ['react-i18next', 'i18next'],
+    inlineCss: true,
+    cssChunking: true,
   },
+  headers: async () => [
+    {
+      source: '/:path*',
+      headers: [
+        {
+          key: 'X-DNS-Prefetch-Control',
+          value: 'on',
+        },
+        {
+          key: 'X-Content-Type-Options',
+          value: 'nosniff',
+        },
+      ],
+    },
+  ],
 };
 
 export default nextConfig;

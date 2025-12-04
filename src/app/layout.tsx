@@ -9,6 +9,8 @@ const geistSans = Geist({
   subsets: ["latin"],
   display: "swap",
   preload: true,
+  fallback: ['system-ui', 'arial'],
+  adjustFontFallback: true,
 });
 
 const geistMono = Geist_Mono({
@@ -16,6 +18,8 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
   display: "swap",
   preload: false,
+  fallback: ['monospace'],
+  adjustFontFallback: true,
 });
 
 export const metadata: Metadata = {
@@ -78,7 +82,55 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
-      <head />
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <style
+          dangerouslySetInnerHTML={{
+            __html: `
+              :root {
+                --background: #ffffff;
+                --foreground: #171717;
+                --color-background: var(--background);
+                --color-foreground: var(--foreground);
+                --font-sans: var(--font-geist-sans);
+                --font-mono: var(--font-geist-mono);
+              }
+              @media (prefers-color-scheme: dark) {
+                :root {
+                  --background: #0a0a0a;
+                  --foreground: #ededed;
+                  --color-background: var(--background);
+                  --color-foreground: var(--foreground);
+                }
+              }
+              body {
+                background: var(--background);
+                color: var(--foreground);
+                margin: 0;
+                font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+              }
+              * {
+                box-sizing: border-box;
+              }
+              .container {
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                padding-left: 1rem;
+                padding-right: 1rem;
+              }
+              @media (min-width: 768px) {
+                .container {
+                  padding-left: 1.5rem;
+                  padding-right: 1.5rem;
+                }
+              }
+            `,
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         suppressHydrationWarning
